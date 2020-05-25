@@ -2,6 +2,7 @@
   "$id": "28",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "entityType": "yext/restaurant",
+  "labels": [],
   "content": {
     "c_deliveryDisclaimer": "All issues with orders placed via 3rd party apps should be resolved through that vendor.",
     "c_restaurantFeatures": [
@@ -22,7 +23,7 @@
           "width": 196
         },
         "title": "Tacos \u0026 Tots Tuesdays",
-        "url": "http://www.turtleheadtacos.com"
+        "url": "[[landingPageUrl]]"
       },
       {
         "description": "Buy one Champagne Margarita and get your second on the house. Cheers!",
@@ -33,7 +34,7 @@
           "width": 196
         },
         "title": "2-for-1 Champagne Margaritas",
-        "url": "http://www.turtleheadtacos.com"
+        "url": "[[landingPageUrl]]"
       },
       {
         "description": "Having a party? Let Turtlehead Tacos help! Call today to inquire about our Fiesta Package.",
@@ -44,19 +45,19 @@
           "width": 196
         },
         "title": "Fiesta Package",
-        "url": "http://www.turtleheadtacos.com"
+        "url": "[[landingPageUrl]]"
       }
     ],
     "c_restaurantType": "DINE-IN_RESTAURANT",
     "c_territory": "Texas",
     "yext/address": {
-      "city": "College Station",
+      "city": "Sulphur Springs",
       "countryCode": "US",
-      "line1": "1037 Texas Ave South",
-      "postalCode": "77840",
+      "line1": "705 Main St",
+      "postalCode": "75482",
       "region": "TX"
     },
-    "yext/description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? Turtlehead Tacos is the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in College Station, TX today!",
+    "yext/description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? Turtlehead Tacos is the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
     "yext/featuredMessage": {
       "description": "Order online today",
       "url": "http://www.turtleheadtacos.com"
@@ -121,7 +122,7 @@
       }
     },
     "yext/landingPageUrl": "http://www.turtleheadtacos.com",
-    "yext/mainPhone": "+19793296900",
+    "yext/mainPhone": "+19795566901",
     "yext/name": "Turtlehead Tacos",
     "yext/photoGallery": [
       {
@@ -158,9 +159,9 @@
     ],
     "yext/timezone": "America/Chicago",
     "yext/websiteUrl": {
-      "displayUrl": "http://www.turtleheadtacos.com",
+      "displayUrl": "[[landingPageUrl]]",
       "preferDisplayUrl": false,
-      "url": "http://www.turtleheadtacos.com"
+      "url": "[[landingPageUrl]]"
     }
   }
 }
